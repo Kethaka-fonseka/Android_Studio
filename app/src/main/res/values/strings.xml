@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">ProjectReportSubmission</string>
+    <string name="text1">Register in as a business account</string>
+    <string name="text2">Business / Owner name</string>
+    <string name="text3">Business / Owner address</string>
+    <string name="text4">Business / Owner contact number</string>
+    <string name="text5">Business / Owner e-mail</string>
+    <string name="text6">Password</string>
+
+    <string name="button1">Register</string>
+
+    <string name="text7">When you register you agree to our User Agreement and acknowledge reading our User Privacy Notice</string>
+
+    <string name="text8">Upload a new item</string>
+    <string name="text9">Item ID</string>
+    <string name="text10">Item name</string>
+    <string name="text11">Item category</string>
+    <string name="text12">Price</string>
+    <string name="text13">Description</string>
+    <string name="text14">Images</string>
+
+    <string name="button2">Upload</string>
+
+    <string name="text15">Edit Uploaded Items</string>
+
+    <string name="button3">Update</string>
+
+    <string name="text16">Welcome A.S.De Silva</string>
+    <string name="text17">My Account</string>
+    <string name="text18">Upload a new item</string>
+    <string name="text19">Edit uploaded items</string>
+    <string name="text20">Delete Items</string>
+    <string name="text21">View uploaded items</string>
+
+    <string name="text22">Delete uploaded items</string>
+
+    <string name="button4">Delete</string>
+
+    <string name="text23">Uploaded items</string>
+    <string name="text24">Edit</string>
+    <string name="text25">Date</string>
+
+
+</resources>
