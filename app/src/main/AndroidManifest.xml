@@ -9,19 +9,44 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MyOrders"></activity>
-        <activity android:name=".Login" />
-        <activity android:name=".CreatingAccount"></activity>
-        <activity android:name=".EnteringCredentials" />
-        <activity android:name=".EnteringPasswords" />
-        <activity android:name=".RegisterAndLogin">
+
+
+        <activity android:name=".EditCustomerProfile">
+
+        </activity>
+        <activity android:name=".CustomerProfile">
+
+        </activity>
+        <activity android:name=".ItemReview" >
+
+        </activity>
+        <activity android:name=".MyOrders">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Login">
+
+        </activity>
+        <activity android:name=".CreatingAccount">
+
+        </activity>
+        <activity android:name=".EnteringCredentials">
+
+        </activity>
+        <activity android:name=".EnteringPasswords" >
+
+        </activity>
+        <activity android:name=".RegisterAndLogin" >
+
+        </activity>
         <activity android:name=".MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

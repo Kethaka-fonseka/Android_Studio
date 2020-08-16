@@ -3,4 +3,56 @@
     <string name="Register_Register">Register</string>
     <string name="OR_Register">OR</string>
     <string name="Login_Register">Sign In</string>
+    <string name="Cont_withFaceBook">Continue With Facebook</string>
+    <string name="Cont_WithEmail">Continue with Email</string>
+    <string name="Cont_withGoogle">Continue with Google</string>
+    <string name="LetsGetStarted">Let\'s get started</string>
+    <string name="Createanaccount">Create an account</string>
+    <string name="Profile">Profile</string>
+    <string name="EditDetails">Edit Details</string>
+    <string name="Registerasaseller">Register as a seller</string>
+    <string name="Shippingaddress">Shipping address</string>
+    <string name="JohnDoe">John Doe</string>
+    <string name="JohnDoegmailcom">JohnDoe@gmail.com</string>
+    <string name="Male">Male</string>
+    <string name="Date">2000/12/20</string>
+    <string name="Name">Name -</string>
+    <string name="Email">Email -</string>
+    <string name="Gender">Gender -</string>
+    <string name="DOB">DOB -</string>
+    <string name="Submit">Submit</string>
+    <string name="FirstName">First Name -</string>
+    <string name="Surname">Surname -</string>
+    <string name="Continue">Continue</string>
+    <string name="Alreadyamember">Already a member?</string>
+    <string name="SignIn">Sign In</string>
+    <string name="Createaaanaccount">Create an account</string>
+    <string name="Password">Password -</string>
+    <string name="ReEnter">Re - Enter -</string>
+    <string name="Createaaccount">Create account</string>
+    <string name="Details">Details</string>
+    <string name="HPEliteBookNotebook">AMS NB - HP EliteBook 840 G6 Notebook PC Datasheet EN
+    </string>
+    <string name="Gen">8th Generation Intel® Core™ i5 processor</string>
+    <string name="DDR">8 GB DDR4-2400 SDRAM (1 x 8 GB)</string>
+    <string name="SSD">256 GB PCIe® NVMe™ M.2 SSD</string>
+    <string name="IntegratedIntel">Integrated: Intel® UHD Graphics 620</string>
+    <string name="SODIMM">2 SODIMM</string>
+    <string name="Intel">"Intel® Core™ i5-8265U with Intel® UHD Graphics 620 (1.6 GHz base
+        frequency, up to3.9 GHz with Intel® Turbo Boost Technology, 6 MB cache, 4 cores)
+        [6,7] "</string>
+    <string name="Price">Price - Rs. 275000/-</string>
+    <string name="Status">Status - Available</string>
+    <string name="Buyit">Buy it</string>
+    <string name="MyOrders">My Orders</string>
+    <string name="G6NotebookPC">HP EliteBook 840 G6 Notebook PC</string>
+    <string name="Windows10Pro64">Windows 10 Pro 64</string>
+    <string name="PortableHard">WD MY Passport 2TB,USB 3.0.2.5\" Portable Hard</string>
+    <string name="Autobackup">Auto backup with included WD Backup software</string>
+    <string name="PasswordProtection">Password Protection</string>
+    <string name="Reimagineddesign">Reimagined design</string>
+    <string name="StatusShipped">Status - Shipped</string>
+    <string name="StatusPending">Status - Pending</string>
+    <string name="Welcome">Welcome</string>
+    <string name="TO">to</string>
 </resources>

@@ -4,13 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     tools:context=".MyOrders">
 
     <TextView
         android:id="@+id/textView16"
+        style="@style/backgroundTextColor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="My Orders"
+        android:text="@string/MyOrders"
         android:textSize="36sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -34,10 +36,11 @@
 
     <TextView
         android:id="@+id/textView17"
+        style="@style/backgroundTextColor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:text="Details"
+        android:text="@string/Details"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -48,9 +51,12 @@
 
     <Button
         android:id="@+id/button10"
+        style="@style/SubmitButtons"
         android:layout_width="114dp"
         android:layout_height="56dp"
-        android:text="Button"
+
+        android:text="Cancel"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.865"
@@ -60,10 +66,11 @@
 
     <TextView
         android:id="@+id/textView19"
+        style="@style/backgroundTextColor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:text="HP EliteBook 840 G6 Notebook PC"
+        android:text="@string/G6NotebookPC"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -74,9 +81,10 @@
 
     <TextView
         android:id="@+id/textView21"
+        style="@style/backgroundTextColor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Windows 10 Pro 64"
+        android:text="@string/Windows10Pro64"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.045"
@@ -86,9 +94,10 @@
 
     <TextView
         android:id="@+id/textView22"
+        style="@style/backgroundTextColor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="8th Generation Intel® Core™ i5 processor"
+        android:text="@string/Gen"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.084"
@@ -98,9 +107,10 @@
 
     <TextView
         android:id="@+id/textView23"
+        style="@style/backgroundTextColor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="8 GB memory; 256 GB SSD storage"
+        android:text="@string/SSD"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.067"
@@ -115,96 +125,102 @@
         android:background="?android:attr/listDivider"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="403dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="403dp" />
 
     <View
         android:id="@+id/divider2"
         android:layout_width="409dp"
         android:layout_height="1dp"
         android:background="?android:attr/listDivider"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="117dp"
-        tools:ignore="MissingConstraints" />
-
-
+        tools:layout_editor_absoluteY="117dp" />
 
 
     <TextView
         android:id="@+id/textView28"
+        style="@style/backgroundTextColor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:text="Details"
+        android:text="@string/Details"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.816" />
+        app:layout_constraintVertical_bias="0.799" />
 
     <Button
         android:id="@+id/button11"
+        style="@style/SubmitButtons"
         android:layout_width="114dp"
         android:layout_height="56dp"
-        android:text="Button"
+        android:text="Cancel"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.868"
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.761" />
+        app:layout_constraintVertical_bias="0.718" />
 
     <TextView
         android:id="@+id/textView27"
+        style="@style/backgroundTextColor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:text="HP EliteBook 840 G6 Notebook PC"
+        android:text="@string/PortableHard"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.851" />
+        app:layout_constraintVertical_bias="0.834" />
 
     <TextView
         android:id="@+id/textView26"
+        style="@style/backgroundTextColor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Windows 10 Pro 64"
+        android:text="@string/Autobackup"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintHorizontal_bias="0.142"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.879" />
+        app:layout_constraintVertical_bias="0.86" />
 
     <TextView
         android:id="@+id/textView25"
+        style="@style/backgroundTextColor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="8th Generation Intel® Core™ i5 processor"
+        android:text="@string/PasswordProtection"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintHorizontal_bias="0.057"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.905" />
+        app:layout_constraintVertical_bias="0.887" />
 
     <TextView
         android:id="@+id/textView24"
+        style="@style/backgroundTextColor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="8 GB memory; 256 GB SSD storage"
+        android:text="@string/Reimagineddesign"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintHorizontal_bias="0.054"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.931" />
+        app:layout_constraintVertical_bias="0.914" />
 
     <View
         android:id="@+id/divider4"
@@ -213,17 +229,17 @@
         android:background="?android:attr/listDivider"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="403dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="403dp" />
 
     <View
         android:id="@+id/divider3"
         android:layout_width="409dp"
         android:layout_height="1dp"
         android:background="?android:attr/listDivider"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="117dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="117dp" />
 
     <View
         android:id="@+id/divider5"
@@ -232,5 +248,48 @@
         android:background="?android:attr/listDivider"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="684dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="199dp"
+        android:layout_height="189dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.71"
+        app:srcCompat="@drawable/wd" />
+
+    <TextView
+        android:id="@+id/textView29"
+        style="@style/backgroundTextColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/StatusShipped"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.861"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.258"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView30"
+        style="@style/backgroundTextColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/StatusPending"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.864"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.628"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

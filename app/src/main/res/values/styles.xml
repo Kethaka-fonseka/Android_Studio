@@ -1,16 +1,72 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="Texts_Register">
-        <item name="android:textSize">16pt</item>
+    <style name="EmailButton">
+        <item name="android:layout_width">307dp</item>
+        <item name="android:layout_height">39dp</item>
+        <item name="android:background">@drawable/buttonboarder</item>
     </style>
 
+    <style name="FacebookButton">
+        <item name="android:layout_width">307dp</item>
+        <item name="android:layout_height">39dp</item>
+        <item name="android:background">@drawable/facebook_button</item>
+    </style>
 
+    <style name="GoogleButton">
+        <item name="android:layout_width">307dp</item>
+        <item name="android:layout_height">39dp</item>
+        <item name="android:background">@drawable/google_button</item>
+    </style>
 
+    <style name="backgroundTextColor">
+        <item name="android:textColor">@color/backgroundText</item>
+    </style>
+
+    <style name="SignInTextColor">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="NormalButtons">
+        <item name="android:layout_width">307dp</item>
+        <item name="android:layout_height">39dp</item>
+        <item name="android:textSize">24pt</item>
+        <item name="android:background">@drawable/normal_buttons</item>
+    </style>
+
+    <style name="SubmitButtons">
+        <item name="android:layout_width">307dp</item>
+        <item name="android:layout_height">39dp</item>
+        <item name="android:textSize">24pt</item>
+        <item name="android:background">@drawable/submit_buttons</item>
+    </style>
+
+    <style name="Welcome">
+        <item name="android:layout_width">307dp</item>
+        <item name="android:layout_height">39dp</item>
+        <item name="android:textSize">24pt</item>
+        <item name="android:fontFamily">@font/aclonica</item>
+        <item name="android:textColor">@color/WelcomeTo</item>
+    </style>
+
+    <style name="To">
+        <item name="android:layout_width">307dp</item>
+        <item name="android:layout_height">39dp</item>
+        <item name="android:textSize">12pt</item>
+        <item name="android:fontFamily">@font/aclonica</item>
+        <item name="android:textColor">@color/WelcomeTo</item>
+    </style>
+
+    <style name="RegisterSignInButtons">
+        <item name="android:layout_width">307dp</item>
+        <item name="android:layout_height">39dp</item>
+        <item name="android:textSize">24pt</item>
+        <item name="android:background">@drawable/register_signin</item>
+    </style>
 </resources>
