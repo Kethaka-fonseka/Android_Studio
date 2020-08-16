@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">A</string>
+    <string name="cart">Cart</string>
+    <string name="check">checkout</string>
+    <string name="remove">Remove</string>
+    <string name="edit">Edit</string>
+    <string name="description">Wired Gaming Keyboard M...</string>
+    <string name="price">RS 2500.00 </string>
+    <string name="msg1">Subtotal </string>
+    <string name="item_des">Wired Gamming Keyboard Mechanical Feeling Backlit Keyboard USB 104 Keycaps Russian Keyboard Waterproof Computer Game Keyboard</string>
+    <string name="saler">Saler: ABC PC Solution Pvt Limited From : Colombo, Sr Lanka</string>
+    <string name="price_range">RS 2000.00-2500.00</string>
+    <string name="availbale">100 items Available</string>
+    <string name="buy">Buy Now</string>
+    <string name="cart1">Add To Cart</string>
+    <string name="fav">Add To Favourites</string>
+    <string name="lap">laptops</string>
+    <string name="tablets">tablets</string>
+    <string name="minipc">mini pcs</string>
+    <string name="desktops">desktops</string>
+    <string name="mosenkey">mouse and keyboard</string>
+    <string name="servers">servers</string>
+    <string name="lapacc">laptop accessories</string>
+    <string name="tabletacc">tablet accessories</string>
+    <string name="com">computer components</string>
+    <string name="categories">Categories</string>
+    <string name="colour">colour:</string>
+    <string name="msg2">Please select</string>
+    <string name="quantity">Quantity</string>
+    <string name="msg3">Category:</string>
+    <string name="msg4">Pro Gaming  Mouse 3200DPI...</string>
+    <string name="msg5">RS 1000.00</string>
+    <string name="msg6">Russian Keyboard...</string>
+    <string name="msg7">RS 2000.00-2500.00</string>
+    <string name="msg8">Wired Gaming Mouse professional 7 Button USB....</string>
+    <string name="msg9">RS 900.00</string>
+    <string name="msg10">Wireless Bluetooth Mous.. </string>
+    <string name="msg11">RS 3300.00</string>
+    <string name="msg12">This Week Top Selections</string>
+    <string name="msg13">New Arrivals</string>
+    <string name="msg14">Favourites</string>
+    <string name="msg15">Save</string>
+    <string name="msg16">Continue</string>
+    <string name="msg17">1</string>
+    <string name="msg18">Remove The Item</string>
+    <string name="msg19">Confirm</string>
+    <string name="msg20">Cancel</string>
+    <string name="msg21">Item Added To The Cart</string>
+    <string name="ok">OK</string>
+
+
+</resources>
